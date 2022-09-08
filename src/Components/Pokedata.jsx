@@ -1,19 +1,17 @@
 import React from 'react'
 import './Pokedata.css'
-import Pokedex from './Pokedex'
 
-class Pokedata extends React.Component {
-  render() {
+
+function Pokedata (props) { 
     return (
     <>
     <h1 className="pokemon__data">
-      <span className="pokemon__id">6</span> -
-      <span className="pokemon__name"> charizard</span>
+      <span className="pokemon__id">{props.pokeid}</span> -
+      <span className="pokemon__name"> {props.pokename}</span>
     </h1>
     </>
   ) 
-  }
- 
-}
+  } 
+
 
 export default Pokedata

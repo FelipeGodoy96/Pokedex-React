@@ -3,7 +3,7 @@ import NextButton from "./NextButton";
 import PrevButton from "./PrevButton";
 import ButtonsStyle from './ButtonsStyle.css'
 
-function Buttons () {
+function Buttons (props) {
   return (
     <div className="buttons">
 
