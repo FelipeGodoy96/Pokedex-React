@@ -5,7 +5,7 @@ function Pokemon (props)  {
 
     return (
       <>
-    <img src={props.pokeimg} alt="pokemon" className="pokemon__image"/>
+    <img src={props.pokeimg} alt=" pokemon" className="pokemon__image"/>
       </>
   )  
 }
