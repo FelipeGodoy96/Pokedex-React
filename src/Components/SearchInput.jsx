@@ -3,8 +3,7 @@ import { useEffect } from 'react'
 import './SearchInput.css'
 import Pokedata from './Pokedata';
 import Pokemon from './Pokemon';
-import Buttons from './Buttons';
-// import altimg from './images/'
+import './ButtonsStyle.css'
 
 
 function SearchInput () {
@@ -25,10 +24,8 @@ function SearchInput () {
 
   return (
     <>
-      <Pokedata pokeid={response?.id} pokename={response?.name}/>
-      <Pokemon pokeimg={response?.sprites?.versions['generation-v']['black-white']['animated']['front_default']}  /> 
-      <Buttons /> 
-
+      <Pokedata pokeid={response?.id || response.status}  pokename={response?.name || response.message}/>
+      <Pokemon pokeimg={response?.sprites?.versions['generation-v']['black-white']['animated']['front_default']}  />    
     <div className="form">
     <input 
       type="search"
@@ -37,7 +34,11 @@ function SearchInput () {
       required
       onChange={(event) => {setSearch(event.target.value.toLowerCase())}}
     />
-    </div>    
+    </div>  
+     <div className="buttons">
+     <button onClick={() => {setSearch(response?.id-1)}} className="button btn-prev">{String.fromCharCode(60)} Prev</button>
+     <button onClick={() => {setSearch(response?.id+1)}} className="button btn-next">Next {String.fromCharCode(62)} </button>
+      </div>  
     </>
   )
 }

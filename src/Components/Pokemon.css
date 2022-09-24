@@ -2,5 +2,6 @@
   position: absolute;
   left: 36%;
   bottom: 52%;
-  height: 18%
+  height: 18%;
+  cursor: pointer;
 }

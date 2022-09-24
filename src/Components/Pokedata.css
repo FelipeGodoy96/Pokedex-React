@@ -5,6 +5,9 @@
   top: 54%;
   right: 28%;
   font-size: clamp(8px, 5vw, 25px);
+  max-width: 200px;
+  max-height: 31px;
+  overflow: hidden;
 }
 
 .pokemon__name {
