@@ -1,6 +1,6 @@
 # Pokedex - React App
 
-Este projeto é uma adaptação em React do projeto [pokedex](https://github.com/manualdodev/pokedex).
+Este projeto é uma adaptação em ReactJS do projeto [pokedex](https://github.com/manualdodev/pokedex).
 
 ## Sumário
 
