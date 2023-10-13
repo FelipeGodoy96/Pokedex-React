@@ -9,13 +9,13 @@ Adapted from [pokedex](https://github.com/manualdodev/pokedex).
 
 
 - [Overview](#overview)
-  - Screenshot](#screenshot)
-  - Links](#links)
-- My process](#my-process)
-  - [Construction](#construction)
-  - Learning](#learning)
-  - Resources](#resources)
-- Author](#author)
+- [Screenshot](#screenshot)
+- [Links](#links)
+- [My process](#my-process)
+- [Construction](#construction)
+- [Learning](#learning)
+- [Resources](#resources)
+- [Author](#author)
 
 
 ## Overview
