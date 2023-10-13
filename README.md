@@ -2,6 +2,10 @@
 
 
 This project is a play with the Pokedex API in order to demonstrate basic knowledge of ReactJS.
+<br>
+<br>
+How to use: type a number or a name of a pokemon to see it's animation.
+<br>
 Adapted from [pokedex](https://github.com/manualdodev/pokedex).
 
 
